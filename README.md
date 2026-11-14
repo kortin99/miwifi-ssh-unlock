@@ -58,7 +58,7 @@ executing anything. This tool does not use them.
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/miwifi-ssh-unlock.git
+git clone https://github.com/kortin99/miwifi-ssh-unlock.git
 cd miwifi-ssh-unlock
 python3 miwifi_ssh_unlock.py --password '你的路由器后台密码'
 ```
