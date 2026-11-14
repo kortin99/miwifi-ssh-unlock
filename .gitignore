@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Never commit credentials, tokens or runtime logs.
+# A `stok` is equivalent to a full admin session.
+*.log
+.env
+.env.*
+*_askpass*
+*.pem
+*.key
