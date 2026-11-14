@@ -222,13 +222,6 @@ stage 本身是普通 shell 脚本，不受这些限制。`--dry-run` 会把 pay
 - 开启 SSH 会失去官方保修；刷 `bdata` 等底层分区有变砖风险，动手前先备份 flash
 - 本仓库不含任何 SN、token、密码，贡献代码时请保持这一点
 
-## 推送到 GitHub 前检查
-
-- [ ] 只提交 `miwifi_ssh_unlock.py`、README、LICENSE、`.gitignore`
-- [ ] 不要提交任何临时探测脚本（尤其是内嵌 `stok` 的那种）
-- [ ] 提交前跑一次 `grep -R 'stok=\|stok\|SN' .` 确认没有真实凭据
-- [ ] 把 README、LICENSE 里的用户名 / 版权署名换成自己的
-
 ## 致谢
 
 - [leafnsand/xiaomi-rp01-root](https://github.com/leafnsand/xiaomi-rp01-root)：`set_global_enable` 研究与固件普查
